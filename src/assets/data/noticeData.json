@@ -1,0 +1,12 @@
+[
+  { "title": "React Basic Course Launch", "writer": "Admin", "date": "2025-10-01" },
+  { "title": "TailwindCSS v4 Release Update", "writer": "John Doe", "date": "2025-10-02" },
+  { "title": "Frontend Beginner Class Enrollment Open", "writer": "Sarah Kim", "date": "2025-10-03" },
+  { "title": "Next.js 15 Major Features Overview", "writer": "Alex Lee", "date": "2025-10-04" },
+  { "title": "JavaScript Async Handling Tips", "writer": "Emily Park", "date": "2025-10-05" },
+  { "title": "Free HTML/CSS Workshop Announcement", "writer": "Admin", "date": "2025-10-06" },
+  { "title": "Using GSAP for Web Motion", "writer": "Daniel Choi", "date": "2025-10-07" },
+  { "title": "Git Basics for Designers", "writer": "Lina Jung", "date": "2025-10-08" },
+  { "title": "Exploring React 19 Hooks", "writer": "Alex Lee", "date": "2025-10-09" },
+  { "title": "Portfolio Branding Tips for Designers", "writer": "Sarah Kim", "date": "2025-10-10" }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Daniel Choi",
+    "role": "Lead Instructor",
+    "specialty": "React 19, Next.js 15, TailwindCSS 4, Web Motion (GSAP, Framer Motion)",
+    "experience": "10 years",
+    "education": "B.F.A. in Multimedia Design, Parsons School of Design",
+    "career": "Former Frontend Lead at CreativeWeb, Author of 'Modern Web Motion', 3-time invited speaker at JSConf Asia"
+  },
+  {
+    "name": "Sarah Kim",
+    "role": "Assistant Instructor",
+    "specialty": "HTML, CSS, UI Layout, Responsive Web Design, Accessibility",
+    "experience": "6 years",
+    "education": "B.F.A. in Visual Design, Hongik University",
+    "career": "Former UI Designer at Studio Pixel, Assisted in multiple corporate frontend bootcamps as a mentor"
+  }
+]

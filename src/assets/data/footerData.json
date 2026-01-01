@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Products",
+    "items": [
+      {
+        "label": "Listing",
+        "link": "/"
+      },
+      {
+        "label": "Property",
+        "link": "/"
+      },
+      {
+        "label": "Agents",
+        "link": "/"
+      },
+      {
+        "label": "Blog",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "items": [
+      {
+        "label": "Our Homes",
+        "link": "/"
+      },
+      {
+        "label": "Member Stories",
+        "link": "/"
+      },
+      {
+        "label": "Video",
+        "link": "/"
+      },
+      {
+        "label": "Free trial",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Company",
+    "items": [
+      {
+        "label": "Partnerships",
+        "link": "/"
+      },
+      {
+        "label": "Terms of use",
+        "link": "/"
+      },
+      {
+        "label": "Privacy",
+        "link": "/"
+      },
+      {
+        "label": "Sitemap",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "title": "Get in touch",
+    "description": "You will find any information whatever you want wherever you are."
+  }
+]

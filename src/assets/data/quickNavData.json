@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "pic": "thumb1.jpg",
+    "title": "Notice",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempora illum esse repellat! Iusto quod sed impedit error enim ratione."
+  },
+  {
+    "id": 2,
+    "pic": "thumb2.jpg",
+    "title": "Gallery",
+    "content": "I mpedit error enim rationeLorem ipsum dolor sit amet, consectetur adipisicing elit. Natus tempora illum esse repellat!"
+  },
+  {
+    "id": 3,
+    "pic": "thumb3.jpg",
+    "title": "Youtube",
+    "content": "Natus tempora illum esse repellat! Iusto quod Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  },
+  {
+    "id": 4,
+    "pic": "thumb4.jpg",
+    "title": "Contact",
+    "content": "Ullam maiores corrupti maxime vitae veniam quasi molestiae atque Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  }
+]

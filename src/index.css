@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-mode=dark] &));
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-noto: "Noto Sans", sans-serif;
+
+  --code-dark: oklch(0.2 0 0);
+  --code-light: oklch(0.95 0.005 50);
+  --code-point: oklch(0.9 0.4 330);
+
+  --color-dark: var(--code-dark);
+  --color-light: var(--code-light);
+  --color-point: var(--code-point);
+}
+
+[data-mode="dark"] {
+  --color-dark: var(--code-light);
+  --color-light: var(--code-dark);
+}
+
+@utility theme-transition {
+  @apply motion-safe:transition-colors motion-safe:duration-250 motion-safe:ease-in-out;
+}
+
+@layer base {
+  body {
+    @apply bg-light font-noto text-dark theme-transition;
+  }
+  a {
+    @apply text-inherit;
+  }
+  label {
+    @apply block w-full mb-2;
+  }
+  input,
+  textarea {
+    @apply w-full resize-none border-b border-dark/50 bg-transparent py-2 text-xs outline-none;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block w-auto cursor-pointer rounded-md border-none bg-dark px-8 py-2 text-sm text-light shadow-lg transition hover:bg-point hover:shadow-point/30;
+  }
+  .glass {
+    @apply rounded border border-t-white/50 border-r-black/5 border-b-black/10 border-l-white/30 bg-dark/3 shadow-xl backdrop-blur-lg dark:border-t-white/20 dark:border-l-white/10;
+  }
+
+  /* 세로 방향 구분선: 리스트 위/아래 보더 */
+  .divider-y {
+    @apply *:border-t *:border-b *:border-t-white/40 *:border-b-black/10 *:py-3 *:first:border-t-0 *:last:border-b-0 dark:*:border-t-white/20 dark:*:border-b-black/20;
+  }
+
+  /* 가로 방향 구분선: 좌/우 보더 */
+  .divider-x {
+    @apply *:border-r *:border-l *:border-r-black/10 *:border-l-white/40 *:px-3 *:first:border-l-0 *:last:border-r-0 dark:*:border-r-black/20 dark:*:border-l-white/20;
+  }
+}
