@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <main className={css.main}>
-      <video className={css.vid} src="./vidBg.mp4" loop muted autoPlay playsInline webkitPlaysInline preload="auto" />
+      <video className={css.vid} src="./vidBg.mp4" loop muted autoPlay playsInline preload="auto" />
       <Slogan />
       <QuickNav />
     </main>
